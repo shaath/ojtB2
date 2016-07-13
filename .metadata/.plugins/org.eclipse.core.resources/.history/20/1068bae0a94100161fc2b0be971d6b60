@@ -1,0 +1,15 @@
+package com.stockAcc.Tests;
+
+import org.testng.annotations.Test;
+
+public class basicannotations 
+{
+
+	@Test
+	public void function1()
+	{
+		System.out.println("this is function1");
+	}
+	
+
+}

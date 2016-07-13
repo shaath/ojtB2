@@ -1,0 +1,7 @@
+Uid&Desc&Result
+U0007&12 items&Pass
+U0008&100 KGs&Pass
+U0009&10000 KGs&Pass
+U0010&1 Ton&Pass
+U0011&100 Tons&Pass
+U0012&1 Load&Pass

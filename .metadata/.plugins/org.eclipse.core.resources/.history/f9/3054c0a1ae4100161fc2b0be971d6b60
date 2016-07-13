@@ -1,0 +1,47 @@
+package com.stockAcc.Master;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.BeforeSuite;
+
+public class testngMaster 
+{
+	public WebDriver driver;
+	public FileInputStream fi;
+	public Properties pr;
+	@BeforeSuite
+	public void stock_Launch() throws IOException
+	{
+		
+		String prPath="E:\\stockAccounting\\stockAcc\\src\\com\\stockAcc\\Properties\\config.properties";
+		fi=new FileInputStream(prPath);
+		pr=new Properties();
+		pr.load(fi);
+		
+		if (pr.getProperty("br").equalsIgnoreCase("firefox"))
+		{
+			driver=new FirefoxDriver();
+			
+		}
+		else if (pr.getProperty("br").equalsIgnoreCase("chrome"))
+		{
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dell\\Desktop\\chromedriver.exe");
+			driver=new ChromeDriver();
+		}
+		else if (pr.getProperty("br").equalsIgnoreCase("ie"))
+		{
+			System.setProperty("webdriver.ie.driver", "C:\\Users\\Dell\\Desktop\\IEDriverServer.exe");
+			driver=new InternetExplorerDriver();
+			
+		}
+		
+	}
+
+}

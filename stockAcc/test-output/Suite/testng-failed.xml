@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.stockAcc.Tests.testngUomcr">
+        <methods>
+          <include name="uomcrea"/>
+        </methods>
+      </class> <!-- com.stockAcc.Tests.testngUomcr -->
+      <class name="com.stockAcc.Tests.tenstngSuppc">
+        <methods>
+          <include name="stock_Close"/>
+          <include name="stock_Logout"/>
+          <include name="stock_Launch"/>
+          <include name="stock_login"/>
+        </methods>
+      </class> <!-- com.stockAcc.Tests.tenstngSuppc -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

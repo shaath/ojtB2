@@ -1,0 +1,18 @@
+package com.stockAcc.Master;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeSuite;
+
+public class testngMaster 
+{
+	public WebDriver driver;
+	
+	@BeforeSuite
+	public void stock_Launch()
+	{
+		driver=new FirefoxDriver();
+		
+	}
+
+}

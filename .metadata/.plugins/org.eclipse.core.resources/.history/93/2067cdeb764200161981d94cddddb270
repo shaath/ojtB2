@@ -1,0 +1,13 @@
+package com.stockAcc.Tests;
+
+import org.testng.annotations.Test;
+
+public class testngsuppcr 
+{
+	@Test
+	public void stock_suppcre()
+	{
+		
+	}
+
+}

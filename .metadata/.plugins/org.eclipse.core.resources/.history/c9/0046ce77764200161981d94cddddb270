@@ -1,0 +1,11 @@
+
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+     
+      <class name="com.stockAcc.Tests.testngsuppcr"/>
+      
+      <class name="com.stockAcc.Tests.tenstngSuppc"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

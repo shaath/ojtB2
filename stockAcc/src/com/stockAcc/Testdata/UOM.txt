@@ -1,0 +1,7 @@
+Uid&Desc
+U0007&12 items
+U0008&100 KGs
+U0009&10000 KGs
+U0010&1 Ton
+U0011&100 Tons
+U0012&1 Load

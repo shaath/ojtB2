@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.stockAcc.Tests.basicannotations"/>
+      <class name="com.stockAcc.Tests.testngsuppcr"/>
+      <class name="com.stockAcc.Tests.testngUomcr"/>
+      <class name="com.stockAcc.Tests.tenstngSuppc"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
